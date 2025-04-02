@@ -85,7 +85,7 @@ const Projects: React.FC = () => {
       description: "A brief description of Project Two.",
       liveDemo: "https://live-demo.com/project-two",
       repo: "https://github.com/username/project-two",
-      image: "/proj2.png",
+      image: "/proj1.png",
       technologies: ["Vue", "Vuetify", "Firebase"],
     },
     {
@@ -101,7 +101,7 @@ const Projects: React.FC = () => {
       description: "A brief description of Project Four.",
       liveDemo: "https://live-demo.com/project-four",
       repo: "https://github.com/username/project-four",
-      image: "/proj2.png",
+      image: "/proj1.png",
       technologies: ["Node.js", "Express", "MongoDB"],
     },
   ];

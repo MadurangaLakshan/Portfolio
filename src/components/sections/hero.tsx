@@ -6,11 +6,12 @@ import { Button } from "@/components/ui/button";
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import { motion } from "framer-motion";
 import TypingEffect from "../effects/typingEffect";
+import Image from "next/image";
 
 const Hero = () => {
   return (
     <section id="hero">
-      <main className="flex min-h-screen flex-col items-center justify-center overflow-hidden text-white pt-24">
+      <main className="flex min-h-screen flex-col items-center justify-center overflow-hidden text-white pt6 md:pt-24 ">
         <div className="z-10 flex w-full max-w-4xl flex-col items-center justify-center px-4 py-12">
           <div className="flex flex-col md:flex-row items-center">
             <motion.section
@@ -20,8 +21,13 @@ const Hero = () => {
               transition={{ duration: 0.8, ease: "easeOut" }}
             >
               <Avatar className="mb-4 md:mb-0 mr-0 md:mr-6 h-32 w-32 bg-gradient-to-r from-purple-500 via-purple-400 to-pink-500">
-                <AvatarImage src="/profile.png" alt="Profile Picture" />
-                <AvatarFallback>AB</AvatarFallback>
+                <Image
+                  src={process.env.NEXT_PUBLIC_PROFILE_URL!}
+                  alt="Profile Picture"
+                  width={128}
+                  height={128}
+                  priority
+                />
               </Avatar>
             </motion.section>
 
