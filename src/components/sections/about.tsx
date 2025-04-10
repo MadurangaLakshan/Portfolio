@@ -22,9 +22,9 @@ const about = () => {
             </span>
 
             <p className="mt-8 max-w-xl text-lg lg:text-2xl text-gray-300">
-              I'm a passionate Software Engineer & Web Developer dedicated to
-              creating beautiful, functional digital experiences. I bring ideas
-              to life through clean code and intuitive interfaces.
+              I&apos;m a passionate Software Engineer & Web Developer dedicated
+              to creating beautiful, functional digital experiences. I bring
+              ideas to life through clean code and intuitive interfaces.
             </p>
             <span className="block mt-12 bg-gradient-to-r from-green-500 via-blue-500 to-indigo-500 bg-clip-text text-transparent text-2xl font-bold">
               What I Can Do

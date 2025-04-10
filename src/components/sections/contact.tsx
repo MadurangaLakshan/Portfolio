@@ -63,7 +63,7 @@ const Contact = () => {
             <Card className="max-w-xl mx-auto shadow-lg bg-black/75 text-white p-6 pt-12 pb-12 ">
               <CardHeader className="text-center">
                 <CardTitle className="text-3xl font-bold">
-                  Let's Get In Touch!
+                  Let&apos;s Get In Touch!
                 </CardTitle>
               </CardHeader>
               <CardContent>
