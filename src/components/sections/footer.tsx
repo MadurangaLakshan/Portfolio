@@ -7,7 +7,6 @@ export default function Footer() {
     <footer className="border-t border-white/15 bg-white/10 md:backdrop-blur p-4">
       <div className="p-4">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between">
-          {/* Icon Links */}
           <div className="flex space-x-6 justify-center p-6 ">
             <Link href="https://github.com/yourusername" target="_blank">
               <FaGithub className="h-6 w-6 hover:text-brand-light hover:text-[#181717] transition-all duration-250" />
@@ -34,7 +33,10 @@ export default function Footer() {
               Terms
             </a>
             <Separator orientation="vertical" />
-            <a href="#" className="text-sm text-white hover:text-gray-300">
+            <a
+              href="#contact"
+              className="text-sm text-white hover:text-gray-300"
+            >
               Contact
             </a>
           </div>

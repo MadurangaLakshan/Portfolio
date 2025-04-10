@@ -22,7 +22,7 @@ const Hero = () => {
             >
               <Avatar className="mb-4 md:mb-0 mr-0 md:mr-6 h-32 w-32 bg-gradient-to-r from-purple-500 via-purple-400 to-pink-500">
                 <Image
-                  src={process.env.NEXT_PUBLIC_PROFILE_URL!}
+                  src="/profile_pic.png"
                   alt="Profile Picture"
                   width={128}
                   height={128}
@@ -57,8 +57,8 @@ const Hero = () => {
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
             <p className="mt-8 max-w-xl text-lg lg:text-2xl text-gray-300 text-center">
-              Passionate about crafting seamless user experiences. I thrive at
-              the intersection of creativity and functionality.
+              Passionate about building intuitive software that blends
+              creativity and functionality to deliver seamless user experiences.
             </p>
 
             <div className="mt-8 flex flex-wrap items-center justify-center gap-4">

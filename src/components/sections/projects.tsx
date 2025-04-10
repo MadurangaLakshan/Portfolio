@@ -63,7 +63,7 @@ const techColors: { [key: string]: string } = {
 type Project = {
   title: string;
   description: string;
-  liveDemo: string;
+  liveDemo?: string;
   repo: string;
   image: string;
   technologies: string[];
@@ -80,29 +80,22 @@ const Projects: React.FC = () => {
       image: "/proj1.png",
       technologies: ["React", "MUI", "SpringBoot", "Firebase", "PostgreSQL"],
     },
+
     {
-      title: "Project Two",
-      description: "A brief description of Project Two.",
+      title: "Realtime Chat Application",
+      description: "A realtime chat application using firebase and react.",
       liveDemo: "https://live-demo.com/project-two",
       repo: "https://github.com/username/project-two",
-      image: "/proj1.png",
-      technologies: ["Vue", "Vuetify", "Firebase"],
+      image: "/proj2.png",
+      technologies: ["React", "Firebase"],
     },
     {
-      title: "Project Three",
-      description: "A brief description of Project Three.",
-      liveDemo: "https://live-demo.com/project-three",
+      title: "Mern Note Application",
+      description:
+        "A simple CRUD application for managing notes using MERN stack.",
       repo: "https://github.com/username/project-three",
-      image: "/proj1.png",
-      technologies: ["Angular", "RxJS", "Bootstrap"],
-    },
-    {
-      title: "Project Four",
-      description: "A brief description of Project Four.",
-      liveDemo: "https://live-demo.com/project-four",
-      repo: "https://github.com/username/project-four",
-      image: "/proj1.png",
-      technologies: ["Node.js", "Express", "MongoDB"],
+      image: "/proj3.png",
+      technologies: ["React", "MUI", "Express", "MongoDB", "Node.js"],
     },
   ];
 
@@ -195,22 +188,26 @@ const Projects: React.FC = () => {
                     </div>
                   </CardContent>
                   <CardFooter className="flex justify-between">
-                    <Link
-                      href={project.liveDemo}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Button
-                        variant="default"
-                        className="cursor-pointer transition transform duration-300 hover:scale-105"
+                    {project.liveDemo ? (
+                      <Link
+                        href={project.liveDemo}
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
-                        <span className="relative flex h-3 w-3 items-center justify-center">
-                          <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
-                          <span className="absolute inline-flex rounded-full h-2 w-2 bg-green-500"></span>
-                        </span>
-                        Live Demo
-                      </Button>
-                    </Link>
+                        <Button
+                          variant="default"
+                          className="cursor-pointer transition transform duration-300 hover:scale-105"
+                        >
+                          <span className="relative flex h-3 w-3 items-center justify-center">
+                            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                            <span className="absolute inline-flex rounded-full h-2 w-2 bg-green-500"></span>
+                          </span>
+                          Live Demo
+                        </Button>
+                      </Link>
+                    ) : (
+                      <div className="w-[120px]" />
+                    )}
                     <Link
                       href={project.repo}
                       target="_blank"

@@ -13,8 +13,8 @@ const TypingEffect = () => {
       strings: [
         "Full Stack Developer",
         "Software Engineer",
-        "Lifelong Learner",
         "Tech Enthusiast",
+        "Lifelong Learner",
       ],
       typeSpeed: 70,
       backSpeed: 50,

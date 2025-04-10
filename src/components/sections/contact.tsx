@@ -56,11 +56,15 @@ const Contact = () => {
         transition={{ duration: 0.8, ease: "easeOut" }}
       >
         <main className="flex min-h-screen flex-col items-center justify-center overflow-hidden text-white">
+          <span className="bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent text-center text-3xl font-bold p-12">
+            Interested in working with me?
+          </span>
           <div className="container mx-auto px-4">
             <Card className="max-w-xl mx-auto shadow-lg bg-black/75 text-white p-6 pt-12 pb-12 ">
               <CardHeader className="text-center">
-                <CardTitle className="text-3xl font-bold">Contact Me</CardTitle>
-                <p className="mt-2 text-lg">Let's Get In Touch!</p>
+                <CardTitle className="text-3xl font-bold">
+                  Let's Get In Touch!
+                </CardTitle>
               </CardHeader>
               <CardContent>
                 <Form {...form}>
