@@ -81,7 +81,7 @@ const Hero = () => {
             </div>
 
             <div className="mt-8 flex space-x-6 items-center justify-center">
-              <Link href="https://github.com/yourusername" target="_blank">
+              <Link href="https://github.com/MadurangaLakshan" target="_blank">
                 <motion.div
                   whileHover={{ scale: 1.2 }}
                   transition={{ type: "spring", stiffness: 300 }}
@@ -90,7 +90,10 @@ const Hero = () => {
                 </motion.div>
               </Link>
 
-              <Link href="https://twitter.com/yourusername" target="_blank">
+              <Link
+                href="https://linkedin.com/in/madurangalakshan"
+                target="_blank"
+              >
                 <motion.div
                   whileHover={{ scale: 1.2 }}
                   transition={{ type: "spring", stiffness: 300 }}
@@ -99,7 +102,10 @@ const Hero = () => {
                 </motion.div>
               </Link>
 
-              <Link href="mailto:you@example.com" target="_blank">
+              <Link
+                href="https://instagram.com/maduranga_lakshan_03"
+                target="_blank"
+              >
                 <motion.div
                   whileHover={{ scale: 1.2 }}
                   transition={{ type: "spring", stiffness: 300 }}

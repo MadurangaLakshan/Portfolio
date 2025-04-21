@@ -8,15 +8,21 @@ export default function Footer() {
       <div className="p-4">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between">
           <div className="flex space-x-6 justify-center p-6 ">
-            <Link href="https://github.com/yourusername" target="_blank">
+            <Link href="https://github.com/MadurangaLakshan" target="_blank">
               <FaGithub className="h-6 w-6 hover:text-brand-light hover:text-[#181717] transition-all duration-250" />
             </Link>
             <Separator orientation="vertical" />
-            <Link href="https://twitter.com/yourusername" target="_blank">
+            <Link
+              href="https://linkedin.com/in/madurangalakshan"
+              target="_blank"
+            >
               <FaLinkedin className="h-6 w-6 hover:text-brand-light hover:text-[#0077B5] transition-all duration-250" />
             </Link>
             <Separator orientation="vertical" />
-            <Link href="mailto:you@example.com" target="_blank">
+            <Link
+              href="https://instagram.com/maduranga_lakshan_03"
+              target="_blank"
+            >
               <FaInstagram className="h-6 w-6 hover:text-brand-light hover:text-[#b5005b] transition-all duration-250" />
             </Link>
           </div>

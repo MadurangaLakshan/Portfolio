@@ -85,7 +85,7 @@ const Projects: React.FC = () => {
       title: "Realtime Chat Application",
       description: "A realtime chat application using firebase and react.",
       liveDemo: "https://live-demo.com/project-two",
-      repo: "https://github.com/username/project-two",
+      repo: "https://github.com/MadurangaLakshan/Realtime-Chat-Application",
       image: "/proj2.png",
       technologies: ["React", "Firebase"],
     },
@@ -93,7 +93,7 @@ const Projects: React.FC = () => {
       title: "Mern Note Application",
       description:
         "A simple CRUD application for managing notes using MERN stack.",
-      repo: "https://github.com/username/project-three",
+      repo: "https://github.com/MadurangaLakshan/Note-Application",
       image: "/proj3.png",
       technologies: ["React", "MUI", "Express", "MongoDB", "Node.js"],
     },
