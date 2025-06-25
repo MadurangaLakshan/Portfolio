@@ -6,8 +6,6 @@ import { motion } from "framer-motion";
 const about = () => {
   return (
     <section id="about" className="relative">
-      {/* <div className="absolute inset-0 bg-gradient-to-r from-purple-600/50 to-blue-500/50"></div> */}
-
       <main className=" relative flex min-h-screen flex-col md:flex-row items-center justify-center overflow-hidden text-white pt-12 sm:pt-0 gap-24 lg:gap-20 2xl:gap-48">
         <motion.section
           id="home"

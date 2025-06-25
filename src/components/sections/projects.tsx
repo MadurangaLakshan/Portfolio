@@ -23,6 +23,7 @@ import {
   SiFirebase,
   SiSpringboot,
   SiMui,
+  SiShadcnui,
 } from "react-icons/si";
 import { IconType } from "react-icons";
 import { motion } from "framer-motion";
@@ -42,6 +43,7 @@ const techIcons: { [key: string]: IconType } = {
   SpringBoot: SiSpringboot,
   MUI: SiMui,
   PostgreSQL: BiLogoPostgresql,
+  "Shadcn/ui": SiShadcnui,
 };
 
 const techColors: { [key: string]: string } = {
@@ -58,6 +60,7 @@ const techColors: { [key: string]: string } = {
   SpringBoot: "#6DB33F",
   MUI: "#0883ff",
   PostgreSQL: "#396c94",
+  "Shadcn/ui": "#0f172a", // Assuming Shadcn has a dark theme
 };
 
 type Project = {
@@ -71,6 +74,15 @@ type Project = {
 
 const Projects: React.FC = () => {
   const projects: Project[] = [
+    {
+      title: "Streetwear E-commerce Website",
+      description:
+        "A modern and responsive streetwear clothing eCommerce website built with Next.js",
+
+      repo: "https://github.com/MadurangaLakshan/NextJs-Streetwear-Ecommerce-Website",
+      image: "/proj4.png",
+      technologies: ["Next.js", "Tailwind CSS", "Shadcn/ui", "PostgreSQL"],
+    },
     {
       title: "Personal Finance Tracker",
       description:

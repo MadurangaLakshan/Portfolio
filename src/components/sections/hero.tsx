@@ -37,7 +37,7 @@ const Hero = () => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, ease: "easeOut" }}
             >
-              <h1 className="text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">
+              <h1 className="text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl ">
                 Hey, I’m{" "}
                 <span className="bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent">
                   Maduranga
@@ -56,7 +56,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
-            <p className="mt-8 max-w-xl text-lg lg:text-2xl text-gray-300 text-center">
+            <p className="mt-8 max-w-xl text-lg lg:text-2xl text-gray-300 text-center ">
               Passionate about building intuitive software that blends
               creativity and functionality to deliver seamless user experiences.
             </p>
