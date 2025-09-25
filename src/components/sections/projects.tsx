@@ -96,7 +96,7 @@ const Projects: React.FC = () => {
     {
       title: "Realtime Chat Application",
       description: "A realtime chat application using firebase and react.",
-      liveDemo: "https://live-demo.com/project-two",
+
       repo: "https://github.com/MadurangaLakshan/Realtime-Chat-Application",
       image: "/proj2.png",
       technologies: ["React", "Firebase"],
