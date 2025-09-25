@@ -78,7 +78,7 @@ const Projects: React.FC = () => {
       title: "Streetwear E-commerce Website",
       description:
         "A modern and responsive streetwear clothing eCommerce website built with Next.js",
-
+      liveDemo: "https://oniricastore.netlify.app/",
       repo: "https://github.com/MadurangaLakshan/NextJs-Streetwear-Ecommerce-Website",
       image: "/proj4.png",
       technologies: ["Next.js", "Tailwind CSS", "Shadcn/ui", "PostgreSQL"],
